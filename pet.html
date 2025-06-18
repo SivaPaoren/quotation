@@ -26,6 +26,27 @@
 
     <main class="container">
       <h2>Featured Pets</h2>
+      <div>
+        Type :
+        <input type="checkbox" id="dog" name="pet-type" value="Dog" checked />
+        <label for="dog">Dog</label>
+
+        <input type="checkbox" id="cat" name="pet-type" value="Cat" checked />
+        <label for="cat">Cat</label>
+
+        <input
+          type="checkbox"
+          id="capybara"
+          name="pet-type"
+          value="capybara"
+          checked
+        />
+        <label for="capybara">Capybara</label>
+
+        <input type="checkbox" id="bird" name="pet-type" value="Bird" checked />
+        <label for="bird">Bird</label>
+      </div>
+
       <section class="featured">
         <div class="pet-list" id="pet-list">
           <!-- Pets will be added here -->
@@ -56,6 +77,11 @@
       </div>
     </footer>
   </body>
+  <script
+    src="https://code.jquery.com/jquery-3.7.1.slim.min.js"
+    integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8="
+    crossorigin="anonymous"
+  ></script>
   <script src="script.js"></script>
   <script src="loadpet.js"></script>
 </html>
